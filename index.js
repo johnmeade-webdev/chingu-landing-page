@@ -1,6 +1,7 @@
 const time_picker = document.getElementById('time');
 const date_picker = document.getElementById('date-zone');
 const time_zone = document.getElementById('am');
+const month_picker = document.getElementById('month');
 
 let hours = new Date();
 let common = hours.getHours() + ':' + hours.getMinutes();

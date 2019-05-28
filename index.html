@@ -4,142 +4,154 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
 
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="main.css">
     <title>Document</title>
 </head>
 <body>
-    <div class="page-container">
-        <div class="section-1">
-            <ul class="ulist mt-2">
-                <li class="icons-list"><span class="icon-box mr-1"><i class="fas fa-wrench"></i></span>SETTINGS</li>
-                <li class="icons-list"><span class="icon-box-1 mr-1"><i class="fas fa-code"></i></span>GISTS</li>
-                <li class="icons-list"><span class="icon-box-2 mr-1"><i class="fab fa-stack-overflow"></i></span>STACK OVERFLOW</li>
-                <li class="icons-list"><span class="icon-box-3 mr-1"><i class="fas fa-chart-line"></i></span>TRENDINGS</li>
-                <li class="icons-list"><span class="icon-box-4 mr-1"><i class="fas fa-pen"></i></span>SCRATCH PADS</li>
-                <li class="icons-list"><span class="icon-box-5 mr-1"><i class="fas fa-lightbulb"></i></span>PLAYGROUND</li>
-                <li class="icons-list"><span class="icon-box-6 mr-1"><i class="fas fa-question"></i></span>HELP/INTRO</li>
-            </ul>
-
-            <div class="init-logo mb-3">
-                <img src="initab_logo_white.png" class="ml-4">
-            </div>
-            <div class="social-icons mb-3">
-                <img src="facebook.png" width="30" height="30" class=" ml-3 mr-2">
-                <img src="linkedin (1).png"width="30" height="30" class="mr-2">
-                <img src="twitter (2).png"width="30" height="30">
-                <img src="reddit.png"width="30" height="30" class="ml-2">
-
-            </div>
-        </div>
-        <div class="section-2">
-            <h1 class="redit-section mt-5 text-center"><span><i class="fab fa-reddit"></i></span>POPULAR ON R/JAVASCRIPT</h1>
-            <div class="sections mt-3">
-                <div class="section ml-4">
-                        <p class="headline" style="color:white">Github - dsa.js: Data Structures and Algorithms explained and implemented in Javascript</p>
-                        <p class="infor" style="color:#e6db73;"><span class="colored mr-1" style="color:#8be9fd;">Posted by:</span> u/adriansky</p>
-                        <p class="score" style="color:#6272a4;">Reddit Score: 286</p>
-                        <a href="#" class="link">Link to comments</a>
-                </div>
-                <div class="section ml-4">
-                        <p class="headline" style="color:white">Testing with Jest and Vue.js: Pocket guide</p>
-                        <p class="infor" style="color:#e6db73;"><span class="colored  mr-1" style="color:#8be9fd;">Posted by:</span> u/adriansky</p>
-                        <p class="score"  style="color:#6272a4;">Reddit Score: 286</p>
-                        <a href="#" class="link">Link to comments</a>
-                </div>
-                <div class="section ml-4">
-                        <p class="headline"  style="color:white">RegExp and Unicode in javscript (LT)</p>
-                        <p class="infor" style="color:#e6db73;"><span class="colored  mr-1" style="color:#8be9fd;">Posted by:</span> u/adriansky</p>
-                        <p class="score" style="color:#6272a4;">Reddit Score: 286</p>
-                        <a href="#" class="link">Link to comments</a>
-                </div>
-                <div class="section ml-4">
-                        <p class="headline"  style="color:white">Strict null checking the Visual Studio Code codebase</p>
-                        <p class="infor" style="color:#e6db73;"><span class="colored  mr-1" style="color:#8be9fd;">Posted by:</span> u/adriansky</p>
-                        <p class="score" style="color:#6272a4;">Reddit Score: 286</p>
-                        <a href="#" class="link">Link to comments</a>
-                </div>
-            </div>
-        </div>
-        <div class="section-3">
-            <div class="headlines">
-                    <p class="heading text-center"><span><i class="fas fa-clock mr-2"></i></span>RELEVANT JAVASCRIPT HISTORY</p>
+   <div class="container-fluid">
+      <div class="row" id="page-container">
+         <div class="col-sm-1 md-1 lg-1 border" id="nav-container">
+                   <ul class="unlist mt-4">
+                       <li class="olist"><span class="mr-2 holder"><i class="fas fa-wrench"></i></span>SETTINGS</li>
+                       <li class="olist"><span class="mr-2 holder"><i class="fas fa-code"></i></span>GISTS</li>
+                       <li class="olist"><span class="mr-2 holder"><i class="fab fa-stack-overflow"></i></span><span class="long-word">STACK OVERFLOW</span></li>
+                       <li class="olist"><span class="mr-2 holder"><i class="fab fa-trending"></i></span>TRENDING</li>
+                       <li class="olist"><span class="mr-2 holder"><i class="fas fa-wrench"></i></span>SCRATCH PAD</li>
+                       <li class="olist"><span class="mr-2 holder"><i class="fas fa-wrench"></i></span>PLAYGROUND</li>
+                       <li class="olist"><span class="mr-2 holder"><i class="fas fa-wrench"></i></span>HELP/INTRO</li>
+                   </ul>
+               
+               <div class="init-logo">
+                   <img src="initab_logo_white.png">
+               </div>
+               <div class="social-icons">
+                   <span><i class="fab fa-facebook"></i></span>
+                   <span><i class="fab fa-linkedin"></i></span>
+               </div>
+             
+         </div>
+         <div class="col-sm-11 md-11 lg-11 border">
+             <div class="row" id="sections">
+                 <div class="col-sm-4 md-4 lg-4">
+                    <div class="heading-section">
+                        <div class="container-fluid" id="news-container">
+                            <div class="reddit-section mt-4 text-center">
+                                <p class="reddit-section m-2"><span><i class="fab fa-reddit-alien mr-2"></i></span>POPULAR ON R/JAVASCRIPT</p>
+                            </div><br>
+                            <div class="details-section" id="details-section">
+                                <div class="section-1 section">
+                                    
+                                    <div id="content">
+                                        <p class="headline">Github - dsa.js: Data Structures and Algorithms explained and implemented in Javascript</p>
+                                        <p class="infor"><span class="colored mr-1">Posted by:</span> u/adriansky</p>
+                                        <p class="score">Reddit Score: 286</p>
+                                        <a href="#" class="link">Link to comments</a>
+                                        
+                                    </div>
+                                </div>
+                                <div class="section-2 section">
+                                        
+                                            <div id="content">
+                                                <p class="headline">Testing with Jest and Vue.js: Pocket guide</p>
+                                                <p class="infor"><span class="colored  mr-1">Posted by:</span> u/adriansky</p>
+                                                <p class="score">Reddit Score: 286</p>
+                                                <a href="#" class="link">Link to comments</a>
+                                                
+                                            </div>
+                                </div>
+                                <div class="section-3 section">
+                                        
+                                            <div id="content">
+                                                <p class="headline">RegExp and Unicode in javscript (LT)</p>
+                                                <p class="infor"><span class="colored  mr-1">Posted by:</span> u/adriansky</p>
+                                                <p class="score">Reddit Score: 286</p>
+                                                <a href="#" class="link">Link to comments</a>
+                                                
+                                            </div>
+                                </div>
+                                <div class="section-4 section">
+                                        
+                                            <div id="content">
+                                                <p class="headline">Strict null checking the Visual Studio Code codebase</p>
+                                                <p class="infor"><span class="colored  mr-1">Posted by:</span> u/adriansky</p>
+                                                <p class="score">Reddit Score: 286</p>
+                                                <a href="#" class="link">Link to comments</a>
+                                                
+                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="col-sm-5 md-5 lg-5 middle-coulmn">
+                     <p class="heading text-center"><span><i class="fas fa-clock mr-2"></i></span>RELEVANT JAVASCRIPT HISTORY</p>
+                     <div class="container-fluid" id="days-ago">
+                         <div class="" id="right"><span class="logo-box mr-2"><i class="fab fa-github" width="30" height="30"></i></span><a href="#" class="tag-link">Github - amejiarosario/dsa.js: Data Structures and Algorithms</a></div>
+                         <div class="days">2 hours ago</div>
+                     </div><br>
+                     
+                     <div class="container-fluid" id="days-ago">
+                        <div class="" id="right"><span class="logo-box mr-2"><i class="fab fa-medium" width="30" height="30"></i></span><a href="#" class="tag-link">Javascript Number toString() Method</a></div>
+                        <div class="days">2 hours ago</div>
+                    </div><br>
+                    <div class="container-fluid" id="days-ago">
+                        <div class="" id="right"><span class="logo-box mr-2"><i class="fab fa-medium" width="30" height="30"></i></span><a href="#" class="tag-link">How to become a better programmer</a></div>
+                        <div class="days">2 hours ago</div>
+                    </div><br>
+                    <div class="container-fluid" id="days-ago">
+                        <div class="" id="right"><span class="logo-box mr-2"><i class="fab fa-youtube" width="30" height="30"></i></span><a href="#" class="tag-link">Tools that programmers need</a></div>
+                        <div class="days">3 hours ago</div>
+                    </div><br>
                     <div class="container-fluid" id="days-ago">
                         <div class="" id="right"><span class="logo-box mr-2"><i class="fab fa-github" width="30" height="30"></i></span><a href="#" class="tag-link">Github - amejiarosario/dsa.js: Data Structures and Algorithms</a></div>
                         <div class="days">2 hours ago</div>
                     </div><br>
-                    
                     <div class="container-fluid" id="days-ago">
-                       <div class="" id="right"><span class="logo-box mr-2"><i class="fab fa-medium" width="30" height="30"></i></span><a href="#" class="tag-link">Javascript Number toString() Method</a></div>
-                       <div class="days">2 hours ago</div>
-                   </div><br>
-                   <div class="container-fluid" id="days-ago">
-                       <div class="" id="right"><span class="logo-box mr-2"><i class="fab fa-medium" width="30" height="30"></i></span><a href="#" class="tag-link">How to become a better programmer</a></div>
-                       <div class="days">2 hours ago</div>
-                   </div><br>
-                   <div class="container-fluid" id="days-ago">
-                       <div class="" id="right"><span class="logo-box mr-2"><i class="fab fa-youtube" width="30" height="30"></i></span><a href="#" class="tag-link">Tools that programmers need</a></div>
-                       <div class="days">3 hours ago</div>
-                   </div><br>
-                   <div class="container-fluid" id="days-ago">
-                       <div class="" id="right"><span class="logo-box mr-2"><i class="fab fa-github" width="30" height="30"></i></span><a href="#" class="tag-link">Github - amejiarosario/dsa.js: Data Structures and Algorithms</a></div>
-                       <div class="days">2 hours ago</div>
-                   </div><br>
-                   <div class="container-fluid" id="days-ago">
-                       <div class="" id="right"><span class="logo-box mr-2"><i class="fab fa-github" width="30" height="30"></i></span><a href="#" class="tag-link">Github - amejiarosario/dsa.js: Data Structures and Algorithms</a></div>
-                       <div class="days">2 hours ago</div>
-                   </div><br>
-                   <div class="container-fluid" id="days-ago">
-                       <div class="" id="right"><span class="logo-box mr-2"><i class="fab fa-github" width="30" height="30"></i></span><a href="#" class="tag-link">Github - amejiarosario/dsa.js: Data Structures and Algorithms</a></div>
-                       <div class="days">2 hours ago</div>
-                   </div>
-                   <hr class="bg-secondary">
+                        <div class="" id="right"><span class="logo-box mr-2"><i class="fab fa-github" width="30" height="30"></i></span><a href="#" class="tag-link">Github - amejiarosario/dsa.js: Data Structures and Algorithms</a></div>
+                        <div class="days">2 hours ago</div>
+                    </div><br>
+                    <div class="container-fluid" id="days-ago">
+                        <div class="" id="right"><span class="logo-box mr-2"><i class="fab fa-github" width="30" height="30"></i></span><a href="#" class="tag-link">Github - amejiarosario/dsa.js: Data Structures and Algorithms</a></div>
+                        <div class="days">2 hours ago</div>
+                    </div>
+                    <hr class="bg-secondary">
+                
 
-                   <div class="timer text-center" id="timer-zone">
+                    <div class="timer text-center" id="timer-zone">
                         <h1 class="time" id="time">1:50<span class="timezone" id="am">AM</span></h1>
                         <h4 id="date-zone"><span in="month">May<span/> 26, 2019</h4>
                     </div>
-            </div>
-        </div>
-        <div class="section-4">
-                <div class="mt-3 mb-5" id="local-text">
-                        <p id="github-link" class="text-center" style="color:#8be9fd"><span class="mr-2"><i class="fab fa-github-alt"></i></span>GITHUB ISSUE HISTORY</p>
-                        <p  class="text-center" id="little-line" href="#" style="color:#6272a4">switch to gitlab</p>
-                        <p class="text-center mt-1"><span class="mr-2" id="issue" style="color:#e6db73">ISSUES</span><a href="#" id="anchors" style="color:#f979c7;">PULL REQUESTS</a></p>
-                       </div>
-                       <div class="section ml-4">
-                            <p class="headline" style="color:#6272a4">Repo: nuxt/nuxt.js</p>
-                            <p style="color:#e6db73">Issue #6140</p>
-                            <p class="score" style="color:white;">How to get data from local json file using actions and axios.get()?</p>
+                        
+                 </div>
+                 <div class="col-sm-3 md-3 lg-3 last-part" >
+                     <div id="border-back">
+                     <div class="mt-1">
+                     <p id="github-link" class="text-center"><span class="mr-2"><i class="fab fa-github-alt"></i></span>GITHUB ISSUE HISTORY</p>
+                     <p  class="text-center" id="little-line" href="#">switch to gitlab</p>
+                     <p class="text-center mt-4"><span class="mr-2" id="issue">ISSUES</span><a href="#" id="anchors">PULL REQUESTS</a></p>
                     </div>
-                    <div class="section ml-4">
-                            <p class="headline" style="color:#6272a4">Repo: React training/react-router</p>
-                            <p class="infor" style="color:#e6db73;">Issue #6140</p>
-                            <p class="score"  style="color:white">I keep getting the error- You shoul not use link outside the router</p>
-                            
+                    <hr class="bg-secondary">
+
+                     <div id="end-part">
+                     </div>
                     </div>
-                    <div class="section ml-4">
-                            <p class="headline"  style="color:#6272a4">Repo: React training/react-router</p>
-                            <p class="infor" style="color:#e6db73;">Issue #6634</p>
-                            <p class="score" style="color:white">Invariant violation after update to react-router 4.4.0</p>
-                    </div>
-                    <div class="section ml-4">
-                            <p class="headline"  style="color:#6272a4">Repo: api-platform/core</p>
-                            <p class="infor" style="color:#e6db73;">Issue #1879</p>
-                            <p class="score" style="color:white">Add custom key to response</p>
-                            
-                    </div>
-        </div>
-    </div>
+                 </div>
+             </div>
+         </div>
+      </div>
+   </div>
 
     <script src="index.js"></script>
-
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
